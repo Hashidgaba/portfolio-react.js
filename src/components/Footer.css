@@ -1,0 +1,21 @@
+.footer-cont {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-cont p {
+    color: white;
+    font-weight: bolder;
+}
+
+.footer-cont i{
+    color: white;
+    margin: 5px 10px;
+    font-size: 1.4rem;
+
+}

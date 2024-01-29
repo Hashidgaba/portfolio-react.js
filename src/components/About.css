@@ -1,0 +1,92 @@
+.container{
+    height: 70vh;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+   
+
+}
+.skill-container{
+    width: 50%;
+    padding: 10px;
+
+}
+
+.skill-container .img-cont{
+    display: flex;
+}
+.skill-container img{
+    width: 130px;
+    height: 130px;
+    margin: 10px 10px ;
+}
+.skill-container .intor p{
+    margin: 10px;
+}
+
+.line-1{
+    width: 30vw;
+    height: 8px;
+    background-color:lightblue;
+    transition: all 0.3s linear;
+}
+ .JS{
+    background-color: rgba(0, 0, 255, 0.822);
+    height: 8px;
+    width: 20vw;
+    position: absolute;
+   
+}
+.HTML{
+    background-color: rgba(0, 0, 255, 0.822);
+    height: 8px;
+    width: 27vw;
+    position: absolute;
+
+}
+.CSS{
+    background-color: rgba(0, 0, 255, 0.822);
+    height: 8px;
+    width: 26vw;
+    position: absolute;
+
+}
+.REACT{
+    background-color: rgba(0, 0, 255, 0.822);
+    height: 8px;
+    width: 22vw;
+    position: absolute;
+}
+.container h2{
+    text-align: center;
+    font-size: 1.9rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    
+  
+}
+.skill-container ul{
+    padding: 10px;
+}
+
+.container li{
+    margin: 10px 40px;
+    list-style: decimal;
+    list-style:decimal;
+    color: black;
+}
+
+
+
+.about-container{
+    width: 50%;
+    padding: 10px;
+
+ 
+}
+.about-container h2{
+    text-align: center;
+}

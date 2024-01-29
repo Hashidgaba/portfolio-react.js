@@ -1,0 +1,56 @@
+.container-1{
+    background-color: lightgray;
+    height: 70vh;
+    width: 100%;
+   
+
+
+}
+.container-1 h2{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, rgb(2, 2, 51), aqua, purple, red);
+    /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.service-cont{
+    display: flex;
+    margin: 30px 0px;
+    justify-content:space-evenly;
+}
+
+ .development{
+    margin: 10px 30px;
+    border: none;
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    filter: drop-shadow(3px 3px 5px black);
+    
+    
+}
+.development img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin: 10px auto;
+  display: block;
+  clip-path: circle(41% at 50% 50%);
+
+ 
+}
+
+.development h3{
+text-align: center;
+margin: 5px 0px;
+}
+
+.development p{
+   padding:3px 12px ;
+   font-weight: bold;
+}
