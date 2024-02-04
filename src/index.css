@@ -1,4 +1,72 @@
-body{
-    background-color: lightgray;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
     behavior: smooth;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .skill-container {
+        width: 100%;
+        display: flex;
+        padding: 0px 10px;
+        flex-direction: row;
+
+
+    }
+
+
+
+    .about-container {
+
+        width: 100vw;
+        display: flex;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .skill-container {
+        flex-wrap: wrap;
+    }
+
+    .skill-container .skill-1 {
+        width: 96vw;
+     
+    }
+
+    .skill-container .skill-1 .line-1 {
+        width: 80vw;
+
+    }
+
+    .skill-container .skill-1 .line-1 .JS {
+        width: 50vw;
+    }
+
+    .skill-container .skill-1 .line-1 .HTML {
+        width: 70vw;
+    }
+
+    .skill-container .skill-1 .line-1 .CSS {
+        width: 65vw;
+    }
+
+    .skill-container .skill-1 .line-1 .REACT {
+        width: 55vw;
+    }
+
+
+
 }

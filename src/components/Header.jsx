@@ -5,9 +5,10 @@ export default function Header() {
     document.addEventListener("scroll", scrollHandler);
     function scrollHandler() {
         const navbar = document.querySelector(".Navbar");
+
         const scrollY = window.scrollY;
-        if (scrollY > 50) {
-            navbar.style.backgroundColor = "rgb(5, 5, 49)";
+        if (scrollY > 0) {
+            navbar.style.backgroundColor = "blue";
 
         }
         else {
@@ -25,12 +26,13 @@ export default function Header() {
                     <li><a href='/' className='link-1'>contact me</a></li>
                 </ul>
                 <div className="right">
-                    <img src='https://media.istockphoto.com/id/1453953453/photo/strategy-of-diversified-investment.jpg?s=612x612&w=0&k=20&c=GdKGA5EuK0QfKm76ExjkK64iPZLuTUOyIDQlXs-ZRQM=' alt='image' width={"50px"}></img>
+                    <img src='https://media-mct1-1.cdn.whatsapp.net/v/t61.24694-24/363097372_223896063481145_5608192509917987327_n.jpg?ccb=11-4&oh=01_AdTZVrtlDHx3SycRP3NusIJW3BkKa1kkiplAwAqUQdtWTQ&oe=65C19AFD&_nc_sid=e6ed6c&_nc_cat=110' alt='my-image'></img>
+
                 </div>
             </div>
             <div className='header-cont' >
                 <div className='cont-1'>
-                    <h2>hey! its me developer</h2>
+                    <h2 className='developer'>hey! its me developer</h2>
                     <h3>A front-end Developer</h3>
                 </div>
             </div>

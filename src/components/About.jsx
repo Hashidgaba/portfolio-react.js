@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css';
+import '../index.css';
 
 export default function About(props) {
   return (
@@ -17,52 +18,50 @@ export default function About(props) {
 
         </div>
 
-        <h2 className='skill-1'>{props.message}</h2>
-        <ul className='ul-1'>
-          <li><strong>JavaScript</strong>60%
-            <p>
-              <div className='line-1 '>
-                <div className='JS'>
+
+        <div className='skill-1'>
+          <h2 className='center'>{props.message}</h2>
+          <ul className='ul-1'>
+            <li><strong>JavaScript</strong>60%
+              <p>
+                <div className='line-1 '>
+                  <div className='JS'>
+                  </div>
                 </div>
-              </div>
-            </p>
-          </li>
-          <li><strong>HTML</strong>80%
-            <p>
-              <div className='line-1 '>
-                <div className='HTML'>
+              </p>
+            </li>
+            <li><strong>HTML</strong>80%
+              <p>
+                <div className='line-1 '>
+                  <div className='HTML'>
+                  </div>
                 </div>
-              </div>
-            </p>
-          </li>
-          <li><strong>CSS3</strong>75%
-            <p>
-              <div className='line-1 '>
-                <div className='CSS'>
+              </p>
+            </li>
+            <li><strong>CSS3</strong>75%
+              <p>
+                <div className='line-1 '>
+                  <div className='CSS'>
+                  </div>
                 </div>
-              </div>
-            </p>
-          </li>
-          <li><strong>REACT</strong>65%
-            <p>
-              <div className='line-1 '>
-                <div className='REACT'>
+              </p>
+            </li>
+            <li><strong>REACT</strong>65%
+              <p>
+                <div className='line-1 '>
+                  <div className='REACT'>
+                  </div>
                 </div>
-              </div>
-            </p>
-          </li>
-        </ul>
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
       <div className='about-container'>
-        <h2 className='about-1'>About</h2>
-        <ul>
-          <li><strong>Introduction:</strong><p>Hi there! I'm Hashid gaba, a passionate development with a love for coding. Welcome to my corner of the internet.</p></li>
-          <li><strong>Passions and Interests:</strong><p>Beyond the world of coding, I am deeply passionate about web developemnt. Whether it's exploring the latest tech trends, or enjoying a good book, I find inspiration in various aspects of life. </p></li>
-          <li><strong>Education:</strong><p>I hold a degree in intermediate, where I gained a solid foundation in many subkects. Continuous learning is a core value of mine, and I'm always eager to explore new technologies.</p></li>
-          <li><strong>Team Collaboration::</strong><p>Collaboration is at the heart of my work. I thrive in dynamic team environments and enjoy contributing my skills to create cohesive and successful projects. .</p></li>
-
-
-        </ul>
+        <h2 className='center'>About</h2>
+        <p>
+          "I am a motivated and passionate individual with a strong desire to make a positive impact. My diverse background and experiences have equipped me with a unique set of skills, allowing me to approach challenges with creativity and adaptability. Whether working independently or collaboratively, I am dedicated to achieving excellence in all endeavors. With a keen interest in [your interests or field], I am committed to continuous learning and growth. I thrive in dynamic environments, embracing opportunities to contribute innovative ideas and solutions. As a person who values integrity and teamwork, I am excited about the prospect of making meaningful contributions to any project or community I engage with."
+        </p>
       </div>
     </div>
 
