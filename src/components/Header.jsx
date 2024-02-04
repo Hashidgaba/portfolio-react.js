@@ -5,14 +5,19 @@ export default function Header() {
     document.addEventListener("scroll", scrollHandler);
     function scrollHandler() {
         const navbar = document.querySelector(".Navbar");
+        
 
         const scrollY = window.scrollY;
         if (scrollY > 0) {
-            navbar.style.backgroundColor = "blue";
+            navbar.style.backgroundColor = "skyblue";
+         
+
 
         }
         else {
             navbar.style.backgroundColor = "black";
+            
+
         }
     }
 
@@ -20,7 +25,7 @@ export default function Header() {
         <div className='header'>
             <div className="Navbar">
                 <ul className="left">
-                    <li><a href='/' className='link-1'>Home</a></li>
+                    <li ><a href='/' className='link-1'>Home</a></li>
                     <li><a href='#about' className='link-1'>Aboout me</a></li>
                     <li><a href='#services' className='link-1'>Services</a></li>
                     <li><a href='/' className='link-1'>contact me</a></li>

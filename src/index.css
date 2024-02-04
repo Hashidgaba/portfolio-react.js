@@ -10,6 +10,8 @@ body {
 
 
 @media screen and (max-width: 800px) {
+
+   
     .container {
         width: 100%;
         flex-direction: column;
@@ -24,15 +26,34 @@ body {
 
 
     }
-
-
-
-    .about-container {
+  .about-container {
 
         width: 100vw;
         display: flex;
-
     }
+    .development{
+        width: 100%;
+    }
+
+    .contact-cont{
+        height: 100vh;
+        flex-direction: column;
+        
+    }
+    .left-1 .form-1{
+        width: 50%;
+    }
+
+    .header{
+        background-position: center;
+        background-size: cover;
+    }
+    .header-cont{
+        font-size: 0.9rem;
+    }
+
+
+
 
 }
 
@@ -66,7 +87,4 @@ body {
     .skill-container .skill-1 .line-1 .REACT {
         width: 55vw;
     }
-
-
-
 }

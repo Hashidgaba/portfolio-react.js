@@ -1,23 +1,87 @@
-
 .contact-cont {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-  
-    height: 70vh;
-    background-color: lightblue;
-    background-image: url("https://www.shutterstock.com/image-photo/contact-us-customer-support-hotline-600nw-2067737414.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color:rgb(10, 10, 10);
+    align-items: center;
+    
 
 }
 
-.left-1 {
-    background-color: transparent;
-    backdrop-filter: blur(10%);
-    box-shadow: 3px 3pxz 3px black;
+.right-1 {
+    width: 50%;
+    height: 50vh;
+    padding: 10px;
+    margin-top: 45px;
+    color:white
 }
+
+.right-1 h2 {
+    background: linear-gradient(to right, blue, aqua, purple, red);    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.5em;
+    border-right: solid 3px ;
+    white-space: nowrap;
+    overflow: hidden;
+    font-style: italic;
+    animation: typing .6s steps(30, end) ;
+    text-align: center;
+}
+
+@keyframes typing {
+    from{
+      width:0;
+      
+    }
+    to{
+      width:100%;
+    } 
+  }
+
+.right-1 p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px 15px;
+    color: white;
+
+}
+
+.links i {
+    color: white;
+    margin: 5px 10px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.links .facebook {
+    display: flex;
+
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: all .3s linear;
+}
+
+.links li a:hover{
+    text-decoration: overline;
+    color: aqua;
+
+}
+
+
 
 .left-1 .form-1 {
     display: flex;
@@ -29,10 +93,9 @@
     padding: 50px;
     background-color: whitesmoke;
     border-radius: 10px;
-
 }
 
-.left-1 .form-1 h2 {
+.left-1 h2 {
     color: black;
     font-size: 1.9rem;
     filter: drop-shadow(4px 3px 3px purple);
@@ -45,7 +108,7 @@
     width: 350px;
 }
 
-.left-1 .form-1 .box-1 input,
+.left-1 .box-1 input,
 textarea {
     padding: 8px;
     width: 100%;
@@ -66,13 +129,13 @@ textarea {
 
 }
 
-.btn input  {
+.btn input {
     padding: 6px;
     border-radius: 5px;
     border-color: inherit;
     background-color: lightgray;
     transition: all 0.2s linear;
-    box-shadow:  2px 2px 3px gray;
+    box-shadow: 2px 2px 3px gray;
 
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './service.css';
+import '../index.css';
 import Card from './Card';
 export default function Services() {
     return (
