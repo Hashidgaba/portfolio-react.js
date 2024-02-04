@@ -1,41 +1,43 @@
 .contact-cont {
     display: flex;
-    justify-content: space-around;
-    background-color:rgb(10, 10, 10);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(10, 10, 10);
     align-items: center;
+    width:100vw ;
     
-
 }
 
 .right-1 {
-    width: 50%;
-    height: 50vh;
-    padding: 10px;
-    margin-top: 45px;
-    color:white
+    color: white;
+    width: 100vh;
+
 }
 
 .right-1 h2 {
-    background: linear-gradient(to right, blue, aqua, purple, red);    -webkit-background-clip: text;
+    background: linear-gradient(to right, blue, aqua, purple, red);
+    -webkit-background-clip: text;
     color: transparent;
     font-size: 1.5em;
-    border-right: solid 3px ;
+    border-right: solid 3px;
     white-space: nowrap;
-    overflow: hidden;
     font-style: italic;
-    animation: typing .6s steps(30, end) ;
+    border-right: 3px solid white;
+    max-width: max-content;
+    animation: typing 3s steps(30, end) alternate infinite ;
     text-align: center;
 }
 
 @keyframes typing {
-    from{
-      width:0;
-      
+    from {
+        width: 0;
+
     }
-    to{
-      width:100%;
-    } 
-  }
+
+    to {
+        width: 100%;
+    }
+}
 
 .right-1 p {
     font-size: 1.5rem;
@@ -68,22 +70,29 @@
     list-style: none;
 }
 
-.links li a{
+.links li a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
     transition: all .3s linear;
 }
 
-.links li a:hover{
+.links li a:hover {
     text-decoration: overline;
     color: aqua;
 
 }
 
+.form-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    overflow: hidden;
+}
 
-
-.left-1 .form-1 {
+.left-1 {
+    box-shadow: inset 2px 2px 2px white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

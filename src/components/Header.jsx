@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css';
+import '../index.css';
 export default function Header() {
 
     document.addEventListener("scroll", scrollHandler);

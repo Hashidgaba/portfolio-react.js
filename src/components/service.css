@@ -20,29 +20,28 @@
     display: flex;
     margin: 30px 0px;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     align-items: center;
-   
+    gap: 10px;
+
 }
 
 .development {
     border: none;
     background-color: white;
     height: 250px;
-    width: 300px;
+    width:100%;
     filter: drop-shadow(3px 3px 5px black);
-
 
 }
 
 .development .img {
-      text-align: center;
-      overflow: hidden;
-      background-image: url("https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg");
-      clip-path: circle(41% at 50% 50%);
-      width: 80px;
-      height: 80px;
-      margin: auto;
+    text-align: center;
+    overflow: hidden;
+    background-image: url("https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg");
+    clip-path: circle(41% at 50% 50%);
+    width: 80px;
+    height: 80px;
+    margin: auto;
 }
 
 .development img {
@@ -52,12 +51,12 @@
     clip-path: circle(41% at 50% 50%);
     background-position: center;
     transition: all 1s;
-   
+
 
 
 }
 
-.development img:hover{
+.development img:hover {
     transform: scale(3);
 }
 
