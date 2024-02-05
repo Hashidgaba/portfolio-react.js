@@ -4,13 +4,18 @@
     flex-wrap: wrap;
     background-color: rgb(10, 10, 10);
     align-items: center;
-    width:100vw ;
+    width:100%;
+    margin-top: 20px;
     
 }
 
 .right-1 {
     color: white;
     width: 100vh;
+    display: flex;
+    align-items: content;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -88,7 +93,8 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    overflow: hidden;
+  
+    
 }
 
 .left-1 {
@@ -102,6 +108,7 @@
     padding: 50px;
     background-color: whitesmoke;
     border-radius: 10px;
+   
 }
 
 .left-1 h2 {
@@ -111,20 +118,21 @@
 }
 
 .left-1 .form-1 .box-1 {
-    /* border:2px solid red; */
     padding: 5px;
     font-size: 0.9rem;
-    width: 350px;
+    width: 320px;
+    
+    
 }
 
 .left-1 .box-1 input,
 textarea {
     padding: 8px;
-    width: 100%;
+    width:94%;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 10px;
-    border-color: transparent;
+    border-color:lightgray;
     background-color: transparent;
     box-shadow: inset 6px 6px 4px silver;
 

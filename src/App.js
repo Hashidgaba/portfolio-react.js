@@ -5,17 +5,18 @@ import Services from './components/Services';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import './index.css';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 export default function App() {
   return (
     <div>
-      <Header />
-      <About message="SKILL" />
+      <Header/>
+      <About/>
       <Services/>
       <Contact/>
       <Footer/>
-      
+
     </div>
   )
 }
