@@ -6,7 +6,9 @@
 body {
     background-color: gray;
     overflow: auto;
+    behavior: smooth;
 }
+
 
 
 @media screen and (max-width: 800px) {

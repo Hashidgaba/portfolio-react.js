@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css';
 import '../index.css';
 
-export default function About(props) {
+const About = () => {
   return (
     <div className='container' id='about'>
       <div className='skill-container'>
@@ -20,7 +20,7 @@ export default function About(props) {
 
 
         <div className='skill-1'>
-          <h2 className='center'>{props.message}</h2>
+          <h2 className='center'>Skill</h2>
           <ul className='ul-1'>
             <li><strong>JavaScript</strong>60%
               <p>
@@ -60,10 +60,11 @@ export default function About(props) {
       <div className='about-container'>
         <h2 className='center'>About</h2>
         <p>
-          "I am a motivated and passionate individual with a strong desire to make a positive impact. My diverse background and experiences have equipped me with a unique set of skills, allowing me to approach challenges with creativity and adaptability. Whether working independently or collaboratively, I am dedicated to achieving excellence in all endeavors. With a keen interest in [your interests or field], I am committed to continuous learning and growth. I thrive in dynamic environments, embracing opportunities to contribute innovative ideas and solutions. As a person who values integrity and teamwork, I am excited about the prospect of making meaningful contributions to any project or community I engage with."
+          "I am a motivated and passionate individual with a strong desire to make a positive impact. My diverse background and experiences have equipped me with a unique set of skills, allowing me to approach challenges with creativity and adaptability. Whether working independently or collaboratively, I am dedicated to achieving excellence in all endeavors. With a keen interest in web development, I am committed to continuous learning and growth. I thrive in dynamic environments, embracing opportunities to contribute innovative ideas and solutions. As a person who values integrity and teamwork, I am excited about the prospect of making meaningful contributions to any project or community I engage with."
         </p>
       </div>
     </div>
 
-  )
-}
+  );
+};
+export default About;

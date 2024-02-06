@@ -4,7 +4,7 @@ import '../index.css';
 
 export default function Contact() {
     return (
-        <div className='contact-cont'>
+        <div className='contact-cont' id='contact'>
 
             <div className='right-1'>
                 <h2>HIT ME THROUGH SOCIAL MEDIA</h2>
@@ -17,7 +17,7 @@ export default function Contact() {
                     </ul>
                     <ul className='facebook'>
                         <li>
-                            <a href='https://www.facebook.com/hashidgaba' target='blank'><i class="fa-brands fa-linkedin"></i>HIT ME ON LINKEDIN</a>
+                            <a href='https://www.linkedin.com/in/hashid-gaba-7324892a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='blank'><i class="fa-brands fa-linkedin"></i>HIT ME ON LINKEDIN</a>
                         </li>
                     </ul>
                     <ul className='facebook'>
@@ -27,7 +27,7 @@ export default function Contact() {
                     </ul>
                     <ul className='facebook'>
                         <li>
-                            <a href='https://www.facebook.com/hashidgaba' target='blank'><i class="fa-brands fa-instagram"></i>HIT ME ON INSTAGRAM</a>
+                            <a href='https://www.instagram.com/hashidgaba?igsh=MTRmMTI1ejByMDJiZw==' target='blank'><i class="fa-brands fa-instagram"></i>HIT ME ON INSTAGRAM</a>
                         </li>
                     </ul>
                 </div>
