@@ -6,12 +6,29 @@
 body {
     background-color: gray;
     overflow: auto;
-    behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: radial-gradient(red, purple, aqua);
+    border-radius: 6px;
 }
 
 
 
 @media screen and (max-width: 800px) {
+    .header {
+        background-position: center;
+        background-size: cover;
+
+    }
+
     .Navbar {
         display: flex;
         justify-content: space-around;
@@ -19,6 +36,9 @@ body {
         position: sticky;
         top: 0px;
         transition: background-color 0.4s ease;
+        width: 100vw;
+
+
     }
 
     .Navbar .left li a {
@@ -55,43 +75,65 @@ body {
 
     }
 
-    .header {
-        background-position: center;
-        background-size: cover;
+    .service-cont .development {
+        height: 300px;
     }
+
+
 
     .header-cont {
         width: 60%;
         margin: auto;
         height: 30vh;
-    }
-   
 
-    .header-cont .cont-1 h2{
+
+    }
+
+
+    .header-cont .cont-1 h2 {
         font-size: 2rem;
     }
 
-    .cont-1 h3{
+    .cont-1 h3 {
         font-size: 1rem;
     }
-
-
-
-    .right-1 {
-        flex-wrap: wrap;
-    }  
 
 }
 
 @media screen and (max-width: 600px) {
+    .contact-cont {
+        font-size: 1.2rem;
 
-    .left-1 {
-        width: 300px;
-    }
-    .contact-cont{
         height: 150vh;
         justify-content: space-between;
+
     }
+    .contact-cont .right-1 h2 {
+        font-size: 1.2rem;
+       
+    }
+    .contact-cont .right-1 p{
+        font-size: 1rem;
+
+    }
+   
+    .left-1 {
+        width: 280px;
+    }
+
+
+    .left-1 .form-1 .box-1 {
+        padding: 5px;
+        width: 300px;
+
+    }
+
+    .left-1 .form-1 .box-1 input,
+    textarea {
+        font-size: 0.8rem;
+
+    }
+
     .Navbar .left li a {
         font-size: 0.8rem;
     }
@@ -99,6 +141,7 @@ body {
     .Navbar .right img {
         width: 30px;
     }
+
     .skill-container {
         flex-wrap: wrap;
     }
@@ -128,13 +171,15 @@ body {
     .skill-container .skill-1 .line-1 .REACT {
         width: 55vw;
     }
-    .footer-cont{
+
+    .footer-cont {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .footer-cont p{
+    .footer-cont p {
         font-size: 0.8rem;
     }
+
 }

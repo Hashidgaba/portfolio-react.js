@@ -29,7 +29,9 @@ export default function Header() {
                     <li><a href='#contact' className='link-1'>contact </a></li>
                 </ul>
                 <div className="right">
-                    <img src='https://media-mct1-1.cdn.whatsapp.net/v/t61.24694-24/363097372_223896063481145_5608192509917987327_n.jpg?ccb=11-4&oh=01_AdTZVrtlDHx3SycRP3NusIJW3BkKa1kkiplAwAqUQdtWTQ&oe=65C19AFD&_nc_sid=e6ed6c&_nc_cat=110' alt='my-image'></img>
+                <img src='https://media-mct1-1.cdn.whatsapp.net/v/t61.24694-24/363097372_223896063481145_5608192509917987327_n.jpg?ccb=11-4&oh=01_AdRx3V-cbcK26MziLJI6LF5UCykm-R1L9cfskm--cE7Cgg&oe=65D1A53D&_nc_sid=e6ed6c&_nc_cat=110'></img>
+               
+                    
 
                 </div>
             </div>
