@@ -26,13 +26,16 @@ body {
     .header {
         background-position: center;
         background-size: cover;
-
+        width: 100%;
+        overflow: hidden;
+        
+      
     }
 
     .Navbar {
         display: flex;
         justify-content: space-around;
-        height: 8vh;
+        height: 6vh;
         position: sticky;
         top: 0px;
         transition: background-color 0.4s ease;
@@ -108,15 +111,17 @@ body {
         justify-content: space-between;
 
     }
+
     .contact-cont .right-1 h2 {
         font-size: 1.2rem;
-       
+
     }
-    .contact-cont .right-1 p{
+
+    .contact-cont .right-1 p {
         font-size: 1rem;
 
     }
-   
+
     .left-1 {
         width: 280px;
     }
@@ -132,6 +137,9 @@ body {
     textarea {
         font-size: 0.8rem;
 
+    }
+    .Navbar{
+        height: 6vh;
     }
 
     .Navbar .left li a {
@@ -181,5 +189,23 @@ body {
     .footer-cont p {
         font-size: 0.8rem;
     }
+    .container{
+        overflow: hidden;
+    }
 
+}
+
+@media screen and (max-width: 300px){
+    .header {
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        overflow: hidden;
+        
+      
+    }
+    .Navbar{
+        overflow: hidden;
+        width: 100%;
+    }
 }
