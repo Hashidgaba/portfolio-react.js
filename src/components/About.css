@@ -4,16 +4,13 @@
     display: flex;
     justify-content: space-between;
     background-color: lightgray;
-    border-top: 5px solid gray;
-    
-
+    border-top: 5px solid white;
 }
 
 .skill-container {
     width: 100%;
     overflow: hidden;
     padding: 0px;
-   
 
 }
 
@@ -38,7 +35,7 @@
     width: 130px;
     height: 130px;
     margin: 10px 10px;
-    
+
 }
 
 

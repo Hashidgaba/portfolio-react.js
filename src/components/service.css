@@ -1,7 +1,8 @@
 .container-1 {
     width: 100%;
-    border-top: 5px solid black;
+    border-top: 5px solid white;
     overflow: hidden;
+   
 }
 
 .container-1 h2 {
