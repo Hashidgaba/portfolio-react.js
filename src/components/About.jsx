@@ -7,18 +7,14 @@ const About = () => {
     <div className='container' id='about'>
       <div className='skill-container'>
         <div className='img-cont'>
-          <img src='https://media-mct1-1.cdn.whatsapp.net/v/t61.24694-24/363097372_223896063481145_5608192509917987327_n.jpg?ccb=11-4&oh=01_AdTZVrtlDHx3SycRP3NusIJW3BkKa1kkiplAwAqUQdtWTQ&oe=65C19AFD&_nc_sid=e6ed6c&_nc_cat=110' alt='my-image'></img>
-          <div className='intor'>
+         <img src='https://media-mct1-1.cdn.whatsapp.net/v/t61.24694-24/363097372_223896063481145_5608192509917987327_n.jpg?ccb=11-4&oh=01_AdQR6KpRHYD1UCKbEDStRQ6RY9_Xd8V5Gl1wggG4lEKJhw&oe=65E3393D&_nc_sid=e6ed6c&_nc_cat=110' alt='this is my '></img>
+          <div className='intro'>
             <p><strong>NAME:</strong>Hashid</p>
             <p> <strong>EMAIL:</strong>hashidgaba@gmail.com</p>
             <p> <strong>ROLE:</strong>web developer</p>
             <p> <strong>AGE:</strong>20</p>
-
           </div>
-
         </div>
-
-
         <div className='skill-1'>
           <h2 className='center'>Skill</h2>
           <ul className='ul-1'>

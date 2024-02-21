@@ -28,8 +28,8 @@ body {
         background-size: cover;
         width: 100%;
         overflow: hidden;
-        
-      
+
+
     }
 
     .Navbar {
@@ -104,10 +104,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .skill-container .img-cont {
+        font-size: 0.9rem;
+    }
+
     .contact-cont {
         font-size: 1.2rem;
-
-        height: 150vh;
         justify-content: space-between;
 
     }
@@ -138,7 +140,8 @@ body {
         font-size: 0.8rem;
 
     }
-    .Navbar{
+
+    .Navbar {
         height: 6vh;
     }
 
@@ -189,22 +192,23 @@ body {
     .footer-cont p {
         font-size: 0.8rem;
     }
-    .container{
+
+    .container {
         overflow: hidden;
     }
-
 }
 
-@media screen and (max-width: 300px){
+
+@media screen and (max-width: 300px) {
+  
     .header {
         background-position: center;
         background-size: cover;
         width: 100%;
         overflow: hidden;
-        
-      
     }
-    .Navbar{
+
+    .Navbar {
         overflow: hidden;
         width: 100%;
     }

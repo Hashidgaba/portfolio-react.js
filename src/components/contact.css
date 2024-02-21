@@ -3,13 +3,11 @@
     justify-content: space-evenly;
     background-color: rgb(10, 10, 10);
     align-items: center;
-    width:100%;
+    width: 100%;
     margin-top: 20px;
     border-top: 5px solid white;
     flex-wrap: wrap;
     overflow: hidden;
-    
-    
 }
 
 .right-1 {
@@ -19,7 +17,6 @@
     align-items: content;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .right-1 h2 {
@@ -32,9 +29,9 @@
     font-style: italic;
     border-right: 3px solid white;
     max-width: max-content;
-    animation: typing 3s steps(30, end) alternate infinite ;
+    animation: typing 3s steps(30, end) alternate infinite;
     text-align: center;
-    
+
     margin: auto;
 }
 
@@ -98,21 +95,24 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
- 
+    padding: 5px;
+    width: 100%;
+
 }
 
 .left-1 {
-    box-shadow: inset 2px 2px 2px white;
+    box-shadow: inset 2px 2px 2px gray;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
     gap: 10px;
     height: 300px;
-    padding: 50px;
-    background-color: whitesmoke;
+    padding: 35px;
     border-radius: 10px;
-   
+    background-color: white;
+
+
 }
 
 .left-1 h2 {
@@ -123,20 +123,19 @@
 
 .left-1 .form-1 .box-1 {
     padding: 5px;
-    width: 300px;   
+    width: 300px;
 }
 
 .left-1 .box-1 input,
 textarea {
     padding: 8px;
-    width:94%;
+    width: 94%;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 10px;
-    border-color:lightgray;
     background-color: transparent;
-    box-shadow: inset 6px 6px 4px silver;
-
+    box-shadow: inset 6px 6px 4px white;
+    border-color: lightgrey;
 }
 
 ::placeholder {
