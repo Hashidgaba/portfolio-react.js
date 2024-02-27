@@ -27,7 +27,8 @@ export default function Header() {
                     <li ><a href="#services" className="link-1">Services</a></li>
                 </ul>
                 <div className="right">
-                    <img src='https://media-mct1-1.cdn.whatsapp.net/v/t61.24694-24/363097372_223896063481145_5608192509917987327_n.jpg?ccb=11-4&oh=01_AdRx3V-cbcK26MziLJI6LF5UCykm-R1L9cfskm--cE7Cgg&oe=65D1A53D&_nc_sid=e6ed6c&_nc_cat=110'></img>
+                <img src='https://media-mct1-1.cdn.whatsapp.net/v/t61.24694-24/363097372_223896063481145_5608192509917987327_n.jpg?ccb=11-4&oh=01_AdQR6KpRHYD1UCKbEDStRQ6RY9_Xd8V5Gl1wggG4lEKJhw&oe=65E3393D&_nc_sid=e6ed6c&_nc_cat=110' alt='this is my '></img>
+
 
 
                 </div>
