@@ -29,6 +29,7 @@
 
 .development {
     border: none;
+    border-radius: 10px;
     background-color: white;
     height: 250px;
     filter: drop-shadow(3px 3px 5px black);

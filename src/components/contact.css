@@ -8,6 +8,7 @@
     border-top: 5px solid white;
     flex-wrap: wrap;
     overflow: hidden;
+    padding: 20px 0px;
 }
 
 .right-1 {

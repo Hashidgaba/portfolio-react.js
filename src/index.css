@@ -28,7 +28,6 @@ body {
         background-size: cover;
         width: 100%;
 
-
     }
 
     .Navbar {
@@ -38,8 +37,7 @@ body {
         position: sticky;
         top: 0px;
         transition: background-color 0.4s ease;
-        width: 100vw;
-
+        width:100%;
 
     }
 
@@ -55,6 +53,11 @@ body {
         width: 100%;
         flex-direction: column;
 
+    }
+    .development p {
+        padding: 3px 12px;
+        font-weight: bold;
+        text-align: center;
     }
 
     .skill-container {
@@ -111,6 +114,9 @@ body {
         font-size: 1.2rem;
         justify-content: space-between;
 
+    }
+    .contact-cont .right-1{
+        margin-top: 10px;
     }
 
     .contact-cont .right-1 h2 {
@@ -195,6 +201,9 @@ body {
     .container {
         overflow: hidden;
     }
+    .intro{
+        padding: 10px;
+    }
 }
 
 
@@ -204,11 +213,11 @@ body {
         background-position: center;
         background-size: cover;
         width: 100%;
-        overflow: hidden;
     }
 
     .Navbar {
-        overflow: hidden;
         width: 100%;
     }
+    
+    
 }
